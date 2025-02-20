@@ -4,7 +4,10 @@ Create a program that calls the function myFunction(x) from 0 to 9999 and stores
 
 On each attempt at finding the largest value, the initial search value x is chosen randomly between the values 1 to 9998.
 
-You can use this function to test your program, but your program should work with any version of myFunction(x).![image](https://github.com/user-attachments/assets/66841b6e-5fcb-418e-8d7f-1fc2ca6aa319)
+You can use this function to test your program, but your program should work with any version of myFunction(x).
+
+![image]
+(https://github.com/user-attachments/assets/66841b6e-5fcb-418e-8d7f-1fc2ca6aa319)
 
 Of course with just 10000 values in the array, we could just use the Python's max(list) to determine the element with the greatest value; for this project, however, we are trying to simulate a situation in which it would not be practical to do that. At the end of your program, whether it is applying a Las Vegas approach or a Monte Carlo approach, it should print a statement saying how many times it attempted the hill climbing algorithm and what the greatest local maximum it found was; it should also list the actual (global) maximum which you can determine with max(list).
 
