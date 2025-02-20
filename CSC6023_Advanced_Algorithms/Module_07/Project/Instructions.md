@@ -6,4 +6,4 @@
 
 - Your program should print the shortest path from the Shire to various points in Middle Earth including the paths and the distances along the way.
 
--Since the code has already been written for you, the main challenge will be ensuring that you understand how the input works and should be written exactly.
+- Since the code has already been written for you, the main challenge will be ensuring that you understand how the input works and should be written exactly.
