@@ -20,3 +20,13 @@ Save your solution in a .py file and submit it to Canvas on or before 11:59 pm F
 
 - Add your file by selecting "Upload" or by dragging and dropping the file.
 - Select "Submit Assignment" to turn in your assignment.
+
+
+#### Rubric
+
+| Criteria | Pts |
+| --- | --- |
+| Random arrays generated according to the specifications of the prompt. | 20|
+| Las Vegas algorithm correctly implemented. The Las Vegas function should always return an index of a 1 from the input array.| 35 |
+| Monte Carlo algorithm correctly implemented. The Monte Carlo function should take two inputs: an array of 0s and 1s and an integer k, setting a limit to the amount of attempts at finding a 1. It should output either an index of the first 1 found or a message saying that all attempts have been exhausted. | 35 |
+| Program flow control, comments, and documentation | 10 |
