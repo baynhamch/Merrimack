@@ -31,5 +31,3 @@ Save your .py program and submit it to Canvas on or before 11:59 pm on Monday, t
 Add your file by selecting "Upload" or by dragging and dropping the file.
 Select "Submit Assignment" to turn in your assignment.
 
-
-d
