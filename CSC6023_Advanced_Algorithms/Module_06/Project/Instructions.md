@@ -17,13 +17,13 @@ If you are using the Monte Carlo style approach, where finding the global maximu
 
 Your program must include and use a function called "hillClimb(arr, start_index)" that does the following:
 
-accepts two parameters, an array, arr, and a starting index, start_index). They should be named "arr" and "start_index". (You generate the array using "myFunction" above and you should generate the start_index with a pseudorandom number generator, but you should test this on small examples.)
-returns the index of the local peak and the value in this fashion: return local_maximum_index, arr[local_maximum_index] (Please note that "local_maximum_index" can be called whatever you want but the two returned values need to be arranged in that order above. Do not put them in a list ("[ ]") or other data structure.
-If the starting index is a local peak, the starting index and its value should be returned.
-If the starting index ends up in a pit, with equal increases to the left and to the right, search to the right. This is an arbitrary decision I am forcing upon you based on testing requirements on my end.
-If the starting index ends up in a pit with unequal increases to the left and right, search the higher path.
-Make sure your searching can go all the way to the ends of the array if need be.
-Make sure your program can traverse shoulders. If at the end of the shoulder, the values start to decrease, you should end at the last part of the shoulder. For example hillClimb([6,5,5,5,4,3,2],5) should return the index 0 and the value 6 but hillClimb([2,5,5,5,4,3,2],5) should return the index 1 and the value 5.
+- accepts two parameters, an array, arr, and a starting index, start_index). They should be named "arr" and "start_index". (You generate the array using "myFunction" above and you should generate the start_index with a pseudorandom number generator, but you should test this on small examples.)
+- returns the index of the local peak and the value in this fashion: return local_maximum_index, arr[local_maximum_index] (Please note that "local_maximum_index" can be called whatever you want but the two returned values need to be arranged in that order above. Do not put them in a list ("[ ]") or other data structure.
+- If the starting index is a local peak, the starting index and its value should be returned.
+- If the starting index ends up in a pit, with equal increases to the left and to the right, search to the right. This is an arbitrary decision I am forcing upon you based on testing requirements on my end.
+- If the starting index ends up in a pit with unequal increases to the left and right, search the higher path.
+- Make sure your searching can go all the way to the ends of the array if need be.
+- Make sure your program can traverse shoulders. If at the end of the shoulder, the values start to decrease, you should end at the last part of the shoulder. For example hillClimb([6,5,5,5,4,3,2],5) should return the index 0 and the value 6 but hillClimb([2,5,5,5,4,3,2],5) should return the index 1 and the value 5.
 This program must be your own, do not use someone else’s code. Any specific questions about it, please bring to the office hours meeting this Thursday or contact me by email This is a challenging program to make sure you are mastering your Python programming skills Don’t be shy with your questions.
 
 Save your .py program and submit it to Canvas on or before 11:59 pm on Monday, the week of the next module:
