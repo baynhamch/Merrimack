@@ -8,7 +8,7 @@
 
 - Since the code has already been written for you, the main challenge will be ensuring that you understand how the input works and should be written exactly.
 
-| First Header  | Second Header |
+|Criteria  | Points |
 | ------------- | ------------- |
 | Dijsktra's algorithm implementation included and working  | /10  |
 | The adjacency matrix representing Middle Earth is correct.  | /20  |
