@@ -23,3 +23,14 @@ Save your program in a .py file and submit it to Canvas on or before 11:59 pm on
 
 Add your file by selecting "Upload" or by dragging and dropping the file.
 Select "Submit Assignment" to turn in your assignment.
+
+
+| Criteria  | Points |
+| ------------- | ------------- |
+| AVL Tree is able to insert elements into the appropriate space given the specifications of AVL trees.  | /20  |
+| AVL Tree is able to delete elements from the appropriate space given the specifications of AVL trees.  | /20  |
+| The program is able to search for elements in the AVL tree without losing O(lg(n)) efficiency. | /30  |
+| The program includes a report including a substantial description of student’s experience on this assignment, incorporating technical terms from the class such as big-O analysis of algorithms. | /10  |
+| The program includes appropriate comments. | /10  |
+| Programs keeps running without crashing until the user enters a negative integer to stop the program.  | /10  |
+| *Total* | /100  |
