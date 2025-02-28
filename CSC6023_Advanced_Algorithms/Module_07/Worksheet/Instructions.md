@@ -18,11 +18,11 @@ This program must be your own, do not use someone else’s code
 
 Any specific questions about it, please bring to the Office hours meeting this Monday or contact me by email. This is a challenging program to make sure you are mastering your Python programming skills, as well as your asymptotic analysis understanding. Don’t be shy with your questions!
 
-Deliverable
+## Deliverable
 Save your program in a .py file and submit it to Canvas on or before 11:59 pm on Friday.
 
-Add your file by selecting "Upload" or by dragging and dropping the file.
-Select "Submit Assignment" to turn in your assignment.
+- Add your file by selecting "Upload" or by dragging and dropping the file.
+- Select "Submit Assignment" to turn in your assignment.
 
 
 | Criteria  | Points |
