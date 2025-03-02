@@ -14,4 +14,4 @@
 | The adjacency matrix representing Middle Earth is correct.  | /20  |
 | The program is outputting the correct values for the problem.  | /30  |
 | The print statement includes all of the necessary information in a readable format.  | /10  |
-| *Total*  | C/100  |
+| *Total*  | /100  |
