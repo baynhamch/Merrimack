@@ -1,3 +1,8 @@
+"""
+Nick Conant-Hiley
+Merimack College
+Module 07 Project
+"""
 import sys
 
 
@@ -9,20 +14,18 @@ class Graph():
                       for row in range(vertices)]
         self.paths = [[] for _ in range(self.V)]
 
+    # ----------------------------------Print Solution Code Changed-----------------------------------
+    # Changed to adapt to the instructions, it prints out Locations Traveled
     def printSolution(self, dist):
-        # print("Vertex \tDistance from Source \tPath")
-        p = 10
         locations = ["Shire", "Bree", "Rivendal", "Moria", "Dale", "Lorien", "Isengard", "Edoras", "Minas Tirith",
                      "Emyn Muil", "Mt. Doom"]
-        named_paths = [locations[node] for node in self.paths[p]]
-        if 0 <= p  < self.V:
-            print("Vertex", p)
-            print("Distance from Shire to Mt. Doom: ", dist[p])
-            # print("Path Taken:", self.paths[p])
-            print(f"Path Taken: {' -> '.join(named_paths)}")
-        else:
-            print("Invalid vertex")
-
+        for p in range(self.V):
+            if p == 0:
+                continue
+            named_paths = [locations[node] for node in self.paths[p]]
+            print(f"Destinations: {locations[p]}")
+            print(f"Distance {dist[p]} miles")
+            print(f"Path taken: {' -> '.join(named_paths)}\n")
         # for node in range(self.V):
         #     print(node, "\t", dist[node], "\t\t\t", self.paths[node])
 
@@ -71,6 +74,18 @@ class Graph():
         self.printSolution(dist)
 
 
+def thankYou():
+    message = "Thank You for the semester, Professor Neff!"
+    border = "*" * (len(message) + 8)
+
+    print(border)
+    print(border)
+    print(f"**  {message}  **")
+    print(border)
+    print(border)
+
+
+
 if __name__ == "__main__":
     g = Graph(11)
 
@@ -87,13 +102,11 @@ if __name__ == "__main__":
         [0, 0, 0, 0, 0, 217, 0, 262, 264, 0, 183],  # Emyn Muil (9)
         [0, 0, 0, 0, 0, 0, 0, 0, 178, 183, 0],  # Mt. Doom (10)
     ]
-    # g.dijkstra(0)
-    locations = ["Shire", "Bree", "Rivendal", "Moria", "Dale", "Lorien", "Isengard", "Edoras", "Minas Tirith", "Emyn Muil", "Mt. Doom"]
-
-    print(f"Distance from {locations[0]} to {locations[2]} is ")
-
-    print("Shortest distance from ")
-    print("🔍 Finding shortest paths from The Shire (0)...\n")
 
     g.dijkstra(0)
+    thankYou()
+
+
+
+
 
